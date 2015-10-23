@@ -8,8 +8,8 @@
 <title>Student Report</title>
 </head>
 <body>
-	<h3>
-		Student Name: <%=request.getParameter("studentname")%></h3>
+	<h3>Student Name: <%=request.getParameter("studentname")%></h3>
+	<h3><%= new java.util.Date() %></h3>
 	<table>
 		<tr>
 			<th>Course Name</th>
